@@ -1,3 +1,3 @@
-#USTH HOMEWORK ASSIGNMENTS
+# USTH HOMEWORK ASSIGNMENTS
 
 This repository contains all homework assignments that I did.
