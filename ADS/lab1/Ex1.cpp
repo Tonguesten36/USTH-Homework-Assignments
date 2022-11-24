@@ -10,12 +10,11 @@ BEGIN
 
 Initialize a global array of size 1001
 
-function FindPrimes():
-    FOR i <- 1 to sqrt(1001) do
-        IF arr[i] is true then
-            FOR j <- i^2 to 1001 do
-                arr[i] <- false
-            ENDFOR
+function FindPrimes(n):
+    FOR i <- 2 to n/2 do
+        IF n % i == 0
+            is prime, end
+    is not prime, end
     ENDFOR
 
 function CheckSphenic(int n):
@@ -49,21 +48,17 @@ END
 
 
 */
-bool numbers[1001];
 
-void FindPrimes() 
+bool isPrime(int n)
 {
-    memset(numbers, true, sizeof(numbers));
-
-    for (int i = 2; i*i < 1001; i++) 
+    for(int i = 2; i <= n/2; i++)
     {
-        if (numbers[i]) {
-            for (int j = i*2; j < 1001; j = j + i) 
-            {
-                numbers[j] = false;
-            }
+        if(n % i == 0)
+        {
+            return true;
         }
     }
+    return false;
 }
 
 bool CheckSphenic(int n)
@@ -83,9 +78,9 @@ bool CheckSphenic(int n)
 
     int primeDivisors = 0;
     
-    for (int i = 1; i < counter; i++)
+    for(int i = 0; i < 8; i++)
     {
-        if (numbers[divisors[i]])
+        if(isPrime(divisors[i]))
         {
             primeDivisors++;
         }
@@ -96,7 +91,6 @@ bool CheckSphenic(int n)
 
 int main()
 {
-    FindPrimes();
 
     int x;
     std::cout << "Enter a natural number: ";
