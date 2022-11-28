@@ -7,9 +7,6 @@ A sphenic number's product has 3 distinct prime numbers. It has 8 divisors
 
 Pseudocode
 BEGIN
-
-Initialize a global array of size 1001
-
 function FindPrimes(n):
     FOR i <- 2 to n/2 do
         IF n % i == 0
