@@ -1,0 +1,7 @@
+.vscode/settings.json
+
+*.class
+
+OOP/ignore_this
+
+*.exe

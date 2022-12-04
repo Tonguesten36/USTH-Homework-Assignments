@@ -1,3 +1,4 @@
+package OOP.lab2;
 
 class Cow {
     private String name;

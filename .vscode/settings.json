@@ -46,5 +46,7 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+
+    "java.project.sourcePaths": [""]
 }

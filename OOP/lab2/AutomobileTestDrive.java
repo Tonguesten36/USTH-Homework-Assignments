@@ -1,3 +1,4 @@
+package OOP.lab2;
 // The Automobile program after being fixed
 
 class Automobile {

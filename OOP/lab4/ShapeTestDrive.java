@@ -1,3 +1,4 @@
+package OOP.lab4;
 
 class Object {
     protected String name;

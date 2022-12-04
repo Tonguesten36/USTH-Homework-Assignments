@@ -1,3 +1,4 @@
+package OOP.lab2;
 
 class Button {
     private String label;

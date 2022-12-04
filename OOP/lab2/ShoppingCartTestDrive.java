@@ -1,3 +1,5 @@
+package OOP.lab2;
+
 import java.util.LinkedList;
 
 class ShoppingCart {

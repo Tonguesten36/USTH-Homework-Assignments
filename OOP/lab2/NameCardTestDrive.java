@@ -1,3 +1,4 @@
+package OOP.lab2;
 
 class NameCard {
     private String name;
